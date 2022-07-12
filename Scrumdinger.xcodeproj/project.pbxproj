@@ -14,6 +14,8 @@
 		E92722ED28746FA0005699E7 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92722EC28746FA0005699E7 /* DailyScrum.swift */; };
 		E92722EF2874701B005699E7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92722EE2874701B005699E7 /* CardView.swift */; };
 		E92722F1287472F5005699E7 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92722F0287472F5005699E7 /* TrailingIconLabelStyle.swift */; };
+		E93637F7287DADE500F14D43 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93637F6287DADE400F14D43 /* ErrorWrapper.swift */; };
+		E93637F9287DAE3000F14D43 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93637F8287DAE3000F14D43 /* ErrorView.swift */; };
 		E9E22EC12879D8A7000A8B28 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E22EC02879D8A7000A8B28 /* ScrumsView.swift */; };
 		E9E22EC32879ED28000A8B28 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E22EC22879ED28000A8B28 /* DetailView.swift */; };
 		E9EAF62B287B51B200E37B01 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EAF62A287B51B200E37B01 /* MeetingHeaderView.swift */; };
@@ -38,6 +40,8 @@
 		E92722EC28746FA0005699E7 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		E92722EE2874701B005699E7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E92722F0287472F5005699E7 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		E93637F6287DADE400F14D43 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		E93637F8287DAE3000F14D43 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		E9E22EC02879D8A7000A8B28 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		E9E22EC22879ED28000A8B28 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		E9EAF62A287B51B200E37B01 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 				E9EAF630287B53E200E37B01 /* AVPlayer+Ding.swift */,
 				E9EAF637287BBA0E00E37B01 /* History.swift */,
 				E9EAF639287BBF1200E37B01 /* ScrumStore.swift */,
+				E93637F6287DADE400F14D43 /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 				E925A6E4287A4267003028D4 /* DetailEditView.swift */,
 				E925A6E6287A4A90003028D4 /* ThemeView.swift */,
 				E925A6E8287A4B9F003028D4 /* ThemePicker.swift */,
+				E93637F8287DAE3000F14D43 /* ErrorView.swift */,
 				E9FF9EBD2873B95C00E19F6D /* Assets.xcassets */,
 				E9FF9EBF2873B95C00E19F6D /* Preview Content */,
 			);
@@ -215,10 +221,12 @@
 				E9EAF633287B556800E37B01 /* MeetingFooterView.swift in Sources */,
 				E9E22EC32879ED28000A8B28 /* DetailView.swift in Sources */,
 				E9EAF62B287B51B200E37B01 /* MeetingHeaderView.swift in Sources */,
+				E93637F7287DADE500F14D43 /* ErrorWrapper.swift in Sources */,
 				E925A6E5287A4267003028D4 /* DetailEditView.swift in Sources */,
 				E92722F1287472F5005699E7 /* TrailingIconLabelStyle.swift in Sources */,
 				E92722EB28746E8A005699E7 /* Theme.swift in Sources */,
 				E9E22EC12879D8A7000A8B28 /* ScrumsView.swift in Sources */,
+				E93637F9287DAE3000F14D43 /* ErrorView.swift in Sources */,
 				E9FF9EBC2873B95B00E19F6D /* MeetingView.swift in Sources */,
 				E9FF9EBA2873B95B00E19F6D /* ScrumdingerApp.swift in Sources */,
 				E925A6E7287A4A90003028D4 /* ThemeView.swift in Sources */,
